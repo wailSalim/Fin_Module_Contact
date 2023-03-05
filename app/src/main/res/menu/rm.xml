@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sea"
+        android:icon="@drawable/rw"
+        android:title="search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/call"
+        android:title="call"
+        android:icon="@drawable/r"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/close"
+        android:title="close"
+        android:icon="@drawable/ra"
+        app:showAsAction="always"
+        />
+    <item android:title="modifier" android:id="@+id/mo"  app:showAsAction="never"/>
+    <item android:title="suprimer" android:id="@+id/su"  app:showAsAction="never"/>
+</menu>
